@@ -1,0 +1,33 @@
+@import 'variables.scss';
+
+.tra-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 40vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    .header {
+        font-size: $s4;
+        font-weight: 600;
+        color: white;
+        margin-bottom: $s2;
+    }
+    #texttotranslate {
+        height: 10vh;
+        width: 440px;
+        margin-bottom: $s2;
+        border: none;
+        border-radius: $s0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        padding: $s2;
+        &:focus {
+            outline: none;
+        }
+    }
+ 
+}

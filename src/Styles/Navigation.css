@@ -1,0 +1,26 @@
+.nav-container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  left: 0;
+  width: 80vw;
+  padding: 0 10vw;
+  height: 64px;
+  background-color: whitesmoke;
+  color: #2c2c2c;
+}
+
+.nav-container .nav-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=Navigation.css.map */
