@@ -6,10 +6,8 @@ export default function Navigation() {
     <div className='nav-container'>
         <div className='nav-logo-container'>runify</div>
         <div className='nav-links-container'>
-            <div className='nav-link first'>link1</div>
-            <div className='nav-link second'>link2</div>
-            <div className='nav-link third'>link3</div>
-            <div className='nav-link fourth'>link4</div>
+            <div className='nav-link first'>about</div>
+            <div className='nav-link second'>git</div>
         </div>
     </div>
   )

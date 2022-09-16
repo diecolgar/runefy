@@ -1,5 +1,4 @@
 .tra-container {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,23 +9,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: 40vh;
-  left: 50vw;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  margin-top: 50vh;
+  max-width: 800px;
 }
 
 .tra-container .header {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   margin-bottom: 12px;
 }
 
 .tra-container #texttotranslate {
-  height: 10vh;
-  width: 440px;
-  margin-bottom: 12px;
+  height: 18px;
+  width: 800px;
+  margin-bottom: 48px;
   border: none;
   border-radius: 4px;
   font-family: 'Raleway', sans-serif;
@@ -34,9 +31,29 @@
   font-weight: 500;
   letter-spacing: 1px;
   padding: 12px;
+  resize: none;
+  overflow-y: hidden;
 }
 
 .tra-container #texttotranslate:focus {
   outline: none;
+}
+
+.tra-container .tag {
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.tra-container .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 32px;
+  margin-bottom: 12px;
+  letter-spacing: 4px;
 }
 /*# sourceMappingURL=TranslatorApp.css.map */

@@ -1,23 +1,22 @@
 @import 'variables.scss';
 
 .tra-container {
-    position: absolute;
+    // position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 40vh;
-    left: 50vw;
-    transform: translateX(-50%);
+    margin-top: 50vh;
+    max-width: 800px;
     .header {
         font-size: $s4;
-        font-weight: 600;
+        font-weight: 500;
         color: white;
         margin-bottom: $s2;
     }
     #texttotranslate {
-        height: 10vh;
-        width: 440px;
-        margin-bottom: $s2;
+        height: 18px;
+        width: 800px;
+        margin-bottom: $s6;
         border: none;
         border-radius: $s0;
         font-family: 'Raleway', sans-serif;
@@ -25,9 +24,24 @@
         font-weight: 500;
         letter-spacing: 1px;
         padding: $s2;
+        resize: none;
         &:focus {
             outline: none;
         }
+        overflow-y: hidden;
     }
- 
+    .tag {
+        opacity: 0.5;
+        font-weight: 400;
+    }
+    .language {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: $s5;
+        margin-bottom: $s2;
+        letter-spacing: $s0;
+        // max-width: 4     00px;
+        // overflow-wrap: break-word;
+    }
 }
