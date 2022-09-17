@@ -18,9 +18,41 @@
   color: #2c2c2c;
 }
 
+.nav-container .nav-logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav-container .nav-links-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nav-container .nav-links-container .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2c2c2c;
+  text-decoration: none;
+}
+
+.nav-container .nav-links-container .nav-link .githubicon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/img/githubicon.png);
+}
+
+.nav-container #logonav {
+  width: 20px;
+  height: 20px;
+  background-image: url(/img/logodark.png);
+  background-position: center;
+  background-size: contain;
+  margin-right: 8px;
 }
 /*# sourceMappingURL=Navigation.css.map */

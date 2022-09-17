@@ -4,10 +4,15 @@ import '../Styles/Navigation.css'
 export default function Navigation() {
   return (
     <div className='nav-container'>
-        <div className='nav-logo-container'>runify</div>
+        <div className='nav-logo-container'>
+            <div id='logonav'></div>
+            runify
+        </div>
         <div className='nav-links-container'>
-            <div className='nav-link first'>about</div>
-            <div className='nav-link second'>git</div>
+            <a className='nav-link first' href='https://github.com/diecolgar/runefy'>
+                <div>code repo</div>
+                <div className='githubicon'></div>
+            </a>
         </div>
     </div>
   )

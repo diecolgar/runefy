@@ -5,8 +5,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50vh;
+    margin-top: 40vh;
     max-width: 800px;
+    #landinglogo {
+        width: 70px;
+        height: 70px;
+        background-image: url(/img/logowhite.png);
+        background-position: center;
+        background-size: contain;
+        margin-bottom: $s4;
+    }
     .header {
         font-size: $s4;
         font-weight: 500;
@@ -16,6 +24,7 @@
     #texttotranslate {
         height: 18px;
         width: 800px;
+        max-width: 90vw;
         margin-bottom: $s6;
         border: none;
         border-radius: $s0;

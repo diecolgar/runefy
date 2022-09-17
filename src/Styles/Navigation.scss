@@ -12,7 +12,31 @@
     height: 64px;
     background-color: whitesmoke;
     color: $defaultDark;
+    .nav-logo-container {
+        display: flex;
+    }
     .nav-links-container {
         display: flex;
+        .nav-link {
+            display: flex;
+            color: $defaultDark;
+            text-decoration: none;
+            .githubicon {
+                width: 20px;
+                height: 20px;
+                margin-left: 8px;
+                background-position: center;
+                background-size: cover;
+                background-image: url(/img/githubicon.png);
+            }
+        }
+    }
+    #logonav {
+        width: 20px;
+        height: 20px;
+        background-image: url(/img/logodark.png);
+        background-position: center;
+        background-size: contain;
+        margin-right: 8px;
     }
 }
