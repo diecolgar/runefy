@@ -14,19 +14,17 @@
 }
 
 .tra-container #landinglogo {
-  width: 70px;
-  height: 70px;
-  background-image: url(/img/logowhite.png);
-  background-position: center;
-  background-size: contain;
-  margin-bottom: 24px;
+  -webkit-transform: translateY(42px);
+          transform: translateY(42px);
+  opacity: 0.15;
+  font-size: 48px;
 }
 
 .tra-container .header {
   font-size: 24px;
   font-weight: 500;
   color: white;
-  margin-bottom: 12px;
+  margin-bottom: 32px;
 }
 
 .tra-container #texttotranslate {

@@ -6,7 +6,7 @@ export default function Navigation() {
     <div className='nav-container'>
         <div className='nav-logo-container'>
             <div id='logonav'></div>
-            runify
+            runefy
         </div>
         <div className='nav-links-container'>
             <a className='nav-link first' href='https://github.com/diecolgar/runefy'>

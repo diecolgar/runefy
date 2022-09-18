@@ -8,18 +8,17 @@
     margin-top: 40vh;
     max-width: 800px;
     #landinglogo {
-        width: 70px;
-        height: 70px;
-        background-image: url(/img/logowhite.png);
-        background-position: center;
-        background-size: contain;
-        margin-bottom: $s4;
+        // width: 70px;
+        // height: 70px;
+        transform: translateY(42px);
+        opacity: 0.15;
+        font-size: $s6;
     }
     .header {
         font-size: $s4;
         font-weight: 500;
         color: white;
-        margin-bottom: $s2;
+        margin-bottom: $s5;
     }
     #texttotranslate {
         height: 18px;

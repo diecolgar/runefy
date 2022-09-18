@@ -74,7 +74,7 @@ export default function TranslatorApp() {
 
     return (
     <div className='tra-container'>
-        <div id='landinglogo'></div>
+        <div id='landinglogo'>ᚱᚢᚾᛖ ᚲᛟᚾᚢᛖᚱᛏᛖᚱ</div>
         <div id='firsttitle' className='header'>rune converter</div>
         <textarea 
             id='texttotranslate'
