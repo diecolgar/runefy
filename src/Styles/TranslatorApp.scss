@@ -5,12 +5,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40vh;
+    margin-top: 30vh;
     max-width: 800px;
     #landinglogo {
-        // width: 70px;
-        // height: 70px;
-        transform: translateY(42px);
+        background-position: center;
+        background-image: url(/img/logodefwhite.png);
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+    }
+    #landingheader {
+        transform: translateY(28px);
         opacity: 0.15;
         font-size: $s6;
     }

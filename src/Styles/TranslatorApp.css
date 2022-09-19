@@ -9,13 +9,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 40vh;
+  margin-top: 30vh;
   max-width: 800px;
 }
 
 .tra-container #landinglogo {
-  -webkit-transform: translateY(42px);
-          transform: translateY(42px);
+  background-position: center;
+  background-image: url(/img/logodefwhite.png);
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.tra-container #landingheader {
+  -webkit-transform: translateY(28px);
+          transform: translateY(28px);
   opacity: 0.15;
   font-size: 48px;
 }
